@@ -1,0 +1,1 @@
+// document.addEventListener("DOMContentLoaded", function() {// Call function only after document ready.anychart.onDocumentReady(function () {    var chart = anychart.column([        {x: 'Cycling', value: 15},        {x: 'Swimming', value: 9},        {x: 'Run', value: 29}    ]);    chart.container('container');    chart.draw();});// });//
